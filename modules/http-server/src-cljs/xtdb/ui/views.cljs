@@ -45,7 +45,7 @@
                :on-change #(rf/dispatch [::events/toggle-show-vt component show-vt?])}]
       [:div.input-group-label.label
        [:label "Valid Time"] [:a.label-hint
-                              {:href "https://xtdb.com/about/bitemporality.html#valid"
+                              {:href "https://docs.xtdb.com/concepts/bitemporality/#valid"
                                :target "_blank"
                                :title "Learn More"}
                               "ⓘ"]]
@@ -62,7 +62,7 @@
                :on-change #(rf/dispatch [::events/toggle-show-tt component show-tt?])}]
       [:div.input-group-label.label
        [:label "Transaction Time" ] [:a.label-hint
-                                     {:href "https://xtdb.com/about/bitemporality.html#transaction"
+                                     {:href "https://docs.xtdb.com/concepts/bitemporality/#transaction"
                                       :target "_blank"
                                       :title "Learn More"}
                                      "ⓘ"]]
